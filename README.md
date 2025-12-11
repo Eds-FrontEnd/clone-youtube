@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com:
 
 Baixe ou clone o projeto no repositório do GitHub.
 
-### 2. Baixar a Extensão Live Server
+### 2. Instalar a Extensão Live Server no Visual Studio Code
 
 Clique com o botão direito do mouse em cima do arquivo index.html
 
@@ -25,3 +25,4 @@ E Pronto! Agora, acesse o projeto no navegador
 Este projeto foi feito com acessibilidade e semântica, além de ser totalmente responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos.
 
 #### Agradecimentos a DIO, sempre trazendonovidades e atualizações incríveis! 🚀
+
