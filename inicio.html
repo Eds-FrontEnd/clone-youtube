@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/youtube_favicon.png"
+      type="image/x-icon"
+    />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="assets/css/style-inicio.css" />
+  </head>
+
+  <body>
+    <header class="header" role="banner">
+      <div class="header__left">
+        <button class="button button--icon menu-toggle" aria-label="Menu">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
+          </svg>
+        </button>
+
+        <a href="index.html" class="header__logo" aria-label="Logo Youtube">
+          <img src="assets/img/youtube - logo.svg" alt="Logo do YouTube" />
+        </a>
+      </div>
+
+      <div class="header__center">
+        <form class="search-bar" role="search">
+          <input type="text" aria-label="Pesquisar" placeholder="Pesquisar" />
+          <button class="button button--icon" aria-label="Pesquisar">
+            <img
+              src="assets/img/pesquisar - icone.svg"
+              alt="Ícone de pesquisa"
+            />
+          </button>
+        </form>
+      </div>
+
+      <div class="header__right">
+        <button class="button button--icon" aria-label="Criar vídeo">
+          <img
+            src="assets/img/video - icone.svg"
+            alt="Ícone de criação de vídeo"
+          />
+        </button>
+
+        <button class="button button--icon" aria-label="Notificações">
+          <img src="assets/img/sino - icone.svg" alt="Ícone de notificações" />
+        </button>
+
+        <button class="button button--icon" aria-label="Perfil do usuário">
+          <img
+            class="user-profile"
+            src="https://i.pravatar.cc/40"
+            alt="Foto do perfil do usuário"
+          />
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="inicio.html">
+              <img src="assets/img/menu/home-icone.svg" alt="Início" />
+              <strong>Início</strong>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/exportar-icone.svg" alt="Explorar" />
+              Explorar
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/youtube-icone.svg" alt="Inscrições" />
+              Inscrições
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/disco-icone.svg" alt="YouTube Music" />
+              YouTube Music
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/gostei-icone.svg" alt="YouTube Music" />
+              Vídeos que gostei
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="assets/img/menu/clock-icone.svg"
+                alt="Assistir mais tarde"
+              />
+              Assistir mais tarde
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/download-icone.svg" alt="Downloads" />
+              Downloads
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/filme-icone.svg" alt="Filmes" />
+              Filmes
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/livro-icone.svg" alt="Aprender" />
+              Aprender
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="assets/img/menu/esporte-icone.svg" alt="Esportes" />
+              Esportes
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <aside
+        class="sidebar"
+        id="sidebar"
+        aria-label="Vídeos recomendados"
+      ></aside>
+    </main>
+
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+  </body>
+</html>
